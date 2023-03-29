@@ -4,7 +4,7 @@ const clickbox = document.querySelector(".clickbox");
 const pointshower = document.querySelector(".pointshower");
 const inputs = document.querySelectorAll(".input");
 const inputAantalKleuren = document.querySelector(".ak");
-const stopBtn = document.querySelector(".stop");
+let stopBtn = document.querySelector(".stop");
 
 let currentloop = 0;
 let moeilijkheid = parseInt(document.getElementById("moeilijkheid").value);
@@ -53,7 +53,7 @@ function shuffle(){
             case (points >= 20):
                 sec = 2000 - (moeilijkheid * 800);
                 break;
-            case (points >= 15):
+            case (points >= 14):
                 sec = 2000 - (moeilijkheid * 600);
                 break;
                 case (points >= 10):
