@@ -48,7 +48,7 @@ function shuffle(){
                 sec = 2000 - (moeilijkheid * 1400);
                 break;
             case (points > 30):
-                sec = 2000 - (moeilijkheid * 1000);
+                sec = 2000 - (moeilijkheid * 1100);
                 break;
             case (points >= 20):
                 sec = 2000 - (moeilijkheid * 800);
