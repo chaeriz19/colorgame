@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-gap: 5px;
+}
+.box {
+    background-color: gray;
+    width: 150px;
+    height: 150px;
+}
+button {
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 5px;
+}
+button:hover {
+    background-color: rgb(240, 240, 246);
+    color: black;
+}
+.clickbox {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+ 
+ 
+}
+.clickbox > * {
+    margin-left: 10%;
+}
+body {
+    height: 1000px;
+}
+
+input:read-only {
+    background-color: lightcoral;
+    border: 2px solid red;
+}
