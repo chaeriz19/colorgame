@@ -45,22 +45,22 @@ function shuffle(){
         clicked = false;
         switch (true) {
             case (points > 40):
-                sec = 2000 - (moeilijkheid * 1200);
+                sec = 2000 - (moeilijkheid * 1400);
                 break;
             case (points > 30):
-                sec = 2000 - (moeilijkheid * 900);
+                sec = 2000 - (moeilijkheid * 1000);
                 break;
             case (points >= 20):
-                sec = 2000 - (moeilijkheid * 700);
+                sec = 2000 - (moeilijkheid * 800);
                 break;
             case (points >= 15):
-                sec = 2000 - (moeilijkheid * 500);
+                sec = 2000 - (moeilijkheid * 600);
                 break;
                 case (points >= 10):
-                    sec = 2000 - (moeilijkheid * 300);
+                    sec = 2000 - (moeilijkheid * 400);
                     break;
                 case (points >= 5):
-                    sec = 2000 - (moeilijkheid * 100);
+                    sec = 2000 - (moeilijkheid * 200);
                     break;
         }
         aantalKleuren = parseInt(document.getElementById("ak").value);
